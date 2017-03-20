@@ -10,29 +10,37 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="NERDBOOK, social, network, amicizia, incontri, hobby, passioni, profilo">
-        <meta name="description" content="Profilo di NERDBOOK">
+        <meta name="description" content="Creazione profilo di NERDBOOK">
         <meta name="author" content="Tommaso Troja">
     </head>
     <body>
         <ul>
             <li><a href="login.html">Login</a></li>
-            <li><a href="bacheca.html">Bacheca</a></li>
             <li><a href="descrizione.html">Descrizione</a></li>
         </ul>
+        <header>
+            <h1>
+                CREA IL TUO PROFILO
+            </h1>
+        </header>
         <div id="Registrazione">
             <h3>I tuoi dati</h3>
             <form method="post" action="bacheca.html">
                 <label for="nome">Nome</label>
                 <input name="nome" id="nome" type="text"/>
                 <br/>
+                <br/>
                 <label for="cognome">Cognome</label>
                 <input name="cognome" id="cognome" type="text"/>
+                <br/>
                 <br/>
                 <label for="foto">Foto profilo</label>
                 <input name="foto" id="foto" type="url"/>
                 <br/>
+                <br/>
                 <label for="frase">Frase di presentazione</label>
                 <input name="frase" id="frase" type="text"/>
+                <br/>
                 <br/>
                 <label>Data di nascita</label>
                 <br/>
@@ -43,11 +51,16 @@ and open the template in the editor.
                 <label for="anno">Anno</label>
                 <input name="anno" id="anno" type="number"/>
                 <br/>
+                <br/>
                 <label for="password">Password</label>
                 <input name="password" id="password" type="text"/>
                 <br/>
+                <br/>
                 <label for="conferma">Conferma Password</label>
                 <input name="conferma" id="conferma" type="text"/>
+                <br/>
+                <br/>
+                <input type="submit" value="Iscriviti"/>
             </form>
         </div>
     </body>
