@@ -8,21 +8,21 @@ and open the template in the editor.
     Author     : Tommaso
 */
 body{
-   background-color: aqua;
+   background-color: #00FFFF;
 }
 h1{
-   color: gold;
+   color: #FFD700;
    font-family: "Papyrus", "Times New Roman", serif;
 }
 h2{
-   color: blanchedalmond;
+   color: #FFEBCD;
    font-family: "Papyrus", "Times New Roman", serif;
 }
 h3{
-   color: blueviolet;
+   color: #8A2BE2;
    font-family: "Papyrus", "Times New Roman", serif;
 }
 p{
-   color: black;
+   color: #000000;
    font-family: sans-serif;
 }
