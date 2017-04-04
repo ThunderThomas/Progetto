@@ -1,28 +1,8 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
-    Created on : 28-mar-2017, 9.53.49
+    Created on : 4-apr-2017, 9.29.07
     Author     : Tommaso
 */
-body{
-   background-color: #00FFFF;
-}
-h1{
-   color: #FFD700;
-   font-family: "Papyrus", "Times New Roman", serif;
-}
-h2{
-   color: #FFEBCD;
-   font-family: "Papyrus", "Times New Roman", serif;
-}
-h3{
-   color: #8A2BE2;
-   font-family: "Papyrus", "Times New Roman", serif;
-}
-p{
-   color: #000000;
-   font-family: sans-serif;
+body {
+    background-color: #FFFFFF;
+    font: "Impact";
 }
