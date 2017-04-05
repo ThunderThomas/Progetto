@@ -8,6 +8,19 @@ and open the template in the editor.
     Author     : Tommaso
 */
 body {
-    background-color: red;
-    font: "Impact", "Arial";
+    background-color: aqua;
+    color: blue;
+    font: "Impact", "Times New Roman", serif;
+}
+h1 {
+    color: gold;
+    font: "Impact", "Times New Roman", serif;
+}
+h2{
+    color: black;
+    font: "Impact", "Times New Roman", serif;
+}
+h3{
+    color: hotpink;
+    font: "Impact", "Times New Roman", serif;
 }
