@@ -10,17 +10,26 @@ and open the template in the editor.
 body {
     background-color: aqua;
     color: blue;
-    font: "Impact", "Times New Roman", serif;
+    font-family: "Arial", "Times New Roman", serif;
 }
 h1 {
-    color: gold;
-    font: "Impact", "Times New Roman", serif;
+    color: green;
+    font-family: "Impact", "Times New Roman", serif;
+    font-size: 40px;
 }
 h2{
     color: black;
-    font: "Impact", "Times New Roman", serif;
+    font-family: "Arial", "Times New Roman", serif;
+    font-size: 30px;
 }
 h3{
     color: hotpink;
-    font: "Impact", "Times New Roman", serif;
+    font-family: "Arial", "Times New Roman", serif;
+    font-size: 15px;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    text-decoration: line-through;
 }
