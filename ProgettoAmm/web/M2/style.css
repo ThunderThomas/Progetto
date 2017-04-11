@@ -47,9 +47,8 @@ header{
     color: blue;
     font-family: "Impact", "Times New Roman", serif;
     font-size: 25px;
-
 }
 header *{
     display: inline-block;
-    
+    margin-right: 30px;
 }
