@@ -34,7 +34,7 @@ a:link {
     text-decoration: none;
 }
 a:visited {
-    color: red;
+    color: navy;
 }
 a:hover {
     text-decoration: underline;
@@ -56,4 +56,22 @@ header *{
 }
 #Bacheca{
     float: left;
+}
+#Registrazione{
+    margin-left: 450px;
+    margin-right: 300px;
+}
+#Registrazione label, #Registrazione input{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 20px;
+}
+#LogIn{
+    margin-left: 550px;
+    margin-right: 610px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
 }

@@ -19,52 +19,62 @@ and open the template in the editor.
             <h1>
                 CREA IL TUO PROFILO
             </h1>
+            <a href="profilo.html">Profilo</a>
+            <a href="bacheca.html">Bacheca</a> 
+            <h3>
+                <img title="Foto Profilo" alt="Foto Profilo di Paolo" src="immagini/scavalcacinghie.jpeg" width="50" height="50"/>
+                Paolo Scavalcacinghie
+            </h3>
+            <a href="login.html">Logout</a>
         </header>
+        <div id="Sidebar">
+            <h2>Amici</h2>
+            <h3><img title="Foto Profilo" alt="Foto Profilo di Mago" src="immagini/Merrino.jpg" width="30" height="30"/>Mago Merlino</h3>
+            <h3><img title="Foto Profilo" alt="Foto Profilo di Stefano" src="immagini/Lavori.jpg" width="30" height="30"/>Stefano Lavori</h3>
+            <h3><img title="Foto Profilo" alt="Foto Profilo di Guglielmo" src="immagini/Cancelli.jpg" width="30" height="30"/>Guglielmo Cancelli</h3>
+            <h2>Gruppi</h2>
+            <h3><img title="Foto Profilo" alt="Foto Profilo di Skate" src="immagini/skate.jpg" width="30" height="30"/>Gli Skateboarders</h3>
+            <h3><img title="Foto Profilo" alt="Foto Profilo di Ricconi" src="immagini/dollaro.jpg" width="30" height="30"/>Noi ricconi!!! $$$</h3>
+        </div>
         <div id="Registrazione">
-            <h3>I tuoi dati</h3>
+            <h3><img title="Foto Profilo" alt="Foto Profilo di Paolo" src="immagini/scavalcacinghie.jpeg" width="100" height="100"/>I tuoi dati</h3>
             <form method="post" action="bacheca.html">
-                <label for="nome">Nome</label>
-                <input name="nome" id="nome" type="text"/>
-                <br/>
-                <br/>
-                <label for="cognome">Cognome</label>
-                <input name="cognome" id="cognome" type="text"/>
-                <br/>
-                <br/>
-                <label for="foto">Foto profilo</label>
-                <input name="foto" id="foto" type="url"/>
-                <br/>
-                <br/>
-                <label for="frase">Frase di presentazione</label>
-                <input name="frase" id="frase" type="text"/>
-                <br/>
-                <br/>
-                <label>Data di nascita</label>
-                <br/>
-                <label for="giorno">Giorno</label>
-                <input name="giorno" id="giorno" type="number"/>
-                <label for="mese">Mese</label>
-                <input name="mese" id="mese" type="number"/>
-                <label for="anno">Anno</label>
-                <input name="anno" id="anno" type="number"/>
-                <br/>
-                <br/>
-                <label for="password">Password</label>
-                <input name="password" id="password" type="text"/>
-                <br/>
-                <br/>
-                <label for="conferma">Conferma Password</label>
-                <input name="conferma" id="conferma" type="text"/>
-                <br/>
-                <br/>
-                <input type="submit" value="Iscriviti"/>
+                <div id="Campo">
+                    <label for="nome">Nome</label>
+                    <input name="nome" id="nome" type="text" value="Paolo"/>
+                </div>
+                <div id="Campo">
+                    <label for="cognome">Cognome</label>
+                    <input name="cognome" id="cognome" type="text" value="Scavalcacinghie"/>
+                </div>
+                <div id="Campo">
+                    <label for="foto">Foto profilo</label>
+                    <input name="foto" id="foto" type="url" value="http://thequiksilverinitiative.com/var/ezwebin_site/storage/images/header_nav/ambassadeurs/tony-hawk/4982-2-eng-GB/Tony-Hawk_article_full.jpg"/>
+                </div>
+                <div id="Campo">
+                    <label for="frase">Frase di presentazione</label>
+                    <input name="frase" id="frase" type="text" value="Lo skating è bello!"/>
+                </div>
+                <div id="Campo">
+                    <label>Data di nascita</label>
+                    <br/>
+                    <label for="giorno">Giorno</label>
+                    <input name="giorno" id="giorno" type="number" value="12"/>
+                    <label for="mese">Mese</label>
+                    <input name="mese" id="mese" type="number" value="05"/>
+                    <label for="anno">Anno</label>
+                    <input name="anno" id="anno" type="number" value="1968"/>
+                </div>
+                <div id="Campo">
+                    <label for="password">Password</label>
+                    <input name="password" id="password" type="text" value="********"/>
+                </div>
+                <div id="Campo">
+                    <label for="conferma">Conferma Password</label>
+                    <input name="conferma" id="conferma" type="text" value="********"/>
+                </div>
+                <input type="submit" value="Aggiorna"/>
             </form>
         </div>
-        <nav>
-            <ul>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="descrizione.html">Descrizione</a></li>
-            </ul>
-        </nav>
     </body>
 </html>
