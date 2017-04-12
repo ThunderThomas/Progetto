@@ -42,31 +42,31 @@ a:hover {
 input {
     color: blue;
 }
-header{
+header {
     color: blue;
     font-family: "Impact", "Times New Roman", serif;
     font-size: 25px;
 }
-header *{
+header * {
     display: inline-block;
     margin-right: 30px;
 }
-#Sidebar{
+#Sidebar {
     float: left;
 }
-#Bacheca{
+#Bacheca {
     float: left;
 }
-#Registrazione{
+#Registrazione {
     margin-left: 450px;
     margin-right: 300px;
 }
-#Registrazione label, #Registrazione input{
+#Registrazione label, #Registrazione input {
     display: inline-block;
     width: 200px;
     margin-bottom: 20px;
 }
-#LogIn{
+#LogIn {
     margin-left: 550px;
     margin-right: 610px;
     padding-top: 10px;
