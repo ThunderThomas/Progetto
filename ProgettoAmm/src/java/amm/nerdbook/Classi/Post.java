@@ -11,6 +11,7 @@ package amm.nerdbook.Classi;
  */
 public class Post {
     String autore;
+    String tipoPost;
     String contenuto;
     String data;
 }

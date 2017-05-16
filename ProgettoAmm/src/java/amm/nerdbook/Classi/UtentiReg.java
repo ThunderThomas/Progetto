@@ -10,5 +10,10 @@ package amm.nerdbook.Classi;
  * @author Tommaso
  */
 public class UtentiReg {
-    
+    String nome;
+    String cognome;
+    String email;
+    String password;
+    String urlFotoProfilo;
+    String dataNascita;
 }
